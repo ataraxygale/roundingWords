@@ -4,7 +4,8 @@
 
 import math
 
-word='amazing'
+word=input('Enter your word here to be halved and output: \n')
+
 #length halved with math.floor
 lenHalf=(len(word))/2
 roundedDown=math.floor(lenHalf)
